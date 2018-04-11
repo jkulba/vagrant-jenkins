@@ -18,7 +18,7 @@ Vagrant configuration
 #### The virtual host is Ubuntu 16
 The Vagrantfile defines the type of VM OS using: config.vm.box = "ubuntu/xenial64"
 
-####vagrant-timezone plugin
+#### vagrant-timezone plugin
 The plugin is used to set the timezone to be the same as the host.
 
 **Usage**: vagrant plugin install vagrant-timezone
