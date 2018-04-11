@@ -15,9 +15,16 @@ Vagrant - https://www.vagrantup.com/downloads.html
 
 Vagrant configuration
 -
-Spring Java Config
-I used the Spring Java Config to create the Java back-end.  The configuration is fairly clean and could used as a quick template as a starter app for future projects.
+#### The virtual host is Ubuntu 16
+The Vagrantfile defines the type of VM OS using: config.vm.box = "ubuntu/xenial64"
 
+####vagrant-timezone plugin
+The plugin is used to set the timezone to be the same as the host.
+
+**Usage**: vagrant plugin install vagrant-timezone
+
+#### Allocated memory and number of CPU cores to be used.
+Based on your workstation the v.memory can be adjusted according to how much memory the host machine has available. 
 
 Provisioners
 -
