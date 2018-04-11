@@ -15,13 +15,15 @@ Vagrant - https://www.vagrantup.com/downloads.html
 
 Vagrant configuration
 -
-#### The virtual host is Ubuntu 16
+#### The virtual host is Ubuntu 16.04.4 LTS
 The Vagrantfile defines the type of VM OS using: config.vm.box = "ubuntu/xenial64"
 
 #### vagrant-timezone plugin
 The plugin is used to set the timezone to be the same as the host.
 
 **Usage**: vagrant plugin install vagrant-timezone
+
+https://github.com/tmatilai/vagrant-timezone
 
 #### Allocated memory and number of CPU cores to be used.
 Based on your workstation the v.memory can be adjusted according to how much memory the host machine has available. 
